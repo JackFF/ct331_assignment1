@@ -20,6 +20,18 @@ void runTests(){
   deleteAfter(l);
   traverse(l);
   printf("\n");
+  push(&l, "4", 30);
+  listElement* element = pop(&l);
+
+  printf("%s\n\n", element->data);
+  traverse(l);
+  printf("\n");
+  enqueue(&l, "5", 30);
+  element = dequeue(l);
+  printf("%s\n\n", element->data);
+  traverse(l);
+  printf("\nTests complete.\n");
+
 
   printf("\nTests complete.\n");
 }

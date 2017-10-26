@@ -62,7 +62,8 @@ void deleteAfter(listElement* after){
 
 void printChar(void* data){
 	printf("%c\n", *(char*)data);
-}
+}
+
 
 int length(listElement* list){
 

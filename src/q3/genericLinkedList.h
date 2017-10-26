@@ -25,6 +25,8 @@ void push(listElement** list, void* data, size_t size);
 
 listElement* pop(listElement** list);
 
-void enqueue(listElement** list, void* data, size_t size);
-listElement* dequeue(listElement* list);
+void enqueue(listElement** list, void* data, size_t size);
+
+listElement* dequeue(listElement* list);
+
 #endif
